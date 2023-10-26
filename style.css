@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    font-family: monospace;
+    color: white;
+}
+/*
+img {
+    max-width: 100%;
+}
+*/
+img {width: 100%; object-fit: cover; max-height: 33.33vh; }

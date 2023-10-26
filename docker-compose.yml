@@ -1,0 +1,13 @@
+version: "3.1"
+services:
+  app:
+    container_name: pwa
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pwa
+    volumes:
+      - ./:/var/www/pwa
+    ports:
+      - 80:80
+      - 443:443
